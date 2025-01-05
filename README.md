@@ -22,11 +22,11 @@ This project extracts audio from video files, transcribes the audio using a Wav2
     pip install -r requirements.txt
    ```
 3. Run from terminal
-a. In one terminal
-   ```
-   uvicorn app:app --host 0.0.0.0 --port 8000
-   ```
-b. In other terminal
-   ```
-   streamlit run main.py
-   ```
+   a. In one terminal
+      ```
+      uvicorn app:app --host 0.0.0.0 --port 8000
+      ```
+   b. In other terminal
+      ```
+      streamlit run main.py
+      ```
