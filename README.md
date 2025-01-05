@@ -28,5 +28,5 @@ a. In one terminal
    ```
 b. In other terminal
    ```
-   Streamlit run main.py
+   streamlit run main.py
    ```
