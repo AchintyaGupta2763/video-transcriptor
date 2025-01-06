@@ -31,3 +31,7 @@ This project extracts audio from video files, transcribes the audio using a Wav2
       ```
       streamlit run main.py
       ```
+4. Docker backend setup
+   ```
+   uvicorn app:app --host 0.0.0.0 --port 8000
+   ```
