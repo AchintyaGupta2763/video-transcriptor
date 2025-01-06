@@ -33,5 +33,6 @@ This project extracts audio from video files, transcribes the audio using a Wav2
       ```
 4. Docker backend setup
    ```
-   uvicorn app:app --host 0.0.0.0 --port 8000
+   docker build -t wav2vec2-api .
+   docker run -p 8000:8000 wav2vec2-api
    ```
